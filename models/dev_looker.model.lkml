@@ -1,8 +1,8 @@
 connection: "dev_looker"
 
 # include all the views
-include: "/views/**/*.view.lkml"
-#include: "/**/*.view.lkml"
+#include: "/views/**/*.view.lkml"
+include: "/**/*.view.lkml"
 
 datagroup: dev_looker_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
