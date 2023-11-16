@@ -21,3 +21,5 @@ explore: order_details {
 
 explore: order {}
 explore: sales_target {}
+explore: profit {}
+#explore: profit_table {}
